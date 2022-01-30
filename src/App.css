@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addCarContainer {
+  margin-bottom: 25px;
+}
+
+.carListContainer {
+  text-align: left;
+}
+
+td {
+  border: 1px solid black;
+}
+
+td {
+  padding: 4px;
+}
+
+tbody::before {
+  content: '';
+  display: block;
+  height: 25px;
+}
+
+button {
+  margin: 10px;
+  margin-top: 20px;
+}
+
+
+
+
